@@ -1,20 +1,40 @@
 {
   "files": {
-    "main.css": "/static/css/main.e4643d3d.chunk.css",
-    "main.js": "/static/js/main.61856a6d.chunk.js",
-    "main.js.map": "/static/js/main.61856a6d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.000fb99b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.000fb99b.js.map",
-    "static/js/2.47be9e65.chunk.js": "/static/js/2.47be9e65.chunk.js",
-    "static/js/2.47be9e65.chunk.js.map": "/static/js/2.47be9e65.chunk.js.map",
+    "main.css": "/static/css/main.29d47b68.chunk.css",
+    "main.js": "/static/js/main.cdd7c817.chunk.js",
+    "main.js.map": "/static/js/main.cdd7c817.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ee484b56.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ee484b56.js.map",
+    "static/css/2.4a4d2903.chunk.css": "/static/css/2.4a4d2903.chunk.css",
+    "static/js/2.a9e5f062.chunk.js": "/static/js/2.a9e5f062.chunk.js",
+    "static/js/2.a9e5f062.chunk.js.map": "/static/js/2.a9e5f062.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e4643d3d.chunk.css.map": "/static/css/main.e4643d3d.chunk.css.map",
-    "static/js/2.47be9e65.chunk.js.LICENSE.txt": "/static/js/2.47be9e65.chunk.js.LICENSE.txt"
+    "static/css/2.4a4d2903.chunk.css.map": "/static/css/2.4a4d2903.chunk.css.map",
+    "static/css/main.29d47b68.chunk.css.map": "/static/css/main.29d47b68.chunk.css.map",
+    "static/js/2.a9e5f062.chunk.js.LICENSE.txt": "/static/js/2.a9e5f062.chunk.js.LICENSE.txt",
+    "static/media/Aquarius.ac51f3b5.png": "/static/media/Aquarius.ac51f3b5.png",
+    "static/media/Beanie Fail.dd9f719d.png": "/static/media/Beanie Fail.dd9f719d.png",
+    "static/media/Bucket Hat.8922e75d.png": "/static/media/Bucket Hat.8922e75d.png",
+    "static/media/Chun Yong.15fdfccf.png": "/static/media/Chun Yong.15fdfccf.png",
+    "static/media/Crop Top.3d4da39f.png": "/static/media/Crop Top.3d4da39f.png",
+    "static/media/Holding Jeans.d25af57a.png": "/static/media/Holding Jeans.d25af57a.png",
+    "static/media/Hui Xian.d63c8cad.jpg": "/static/media/Hui Xian.d63c8cad.jpg",
+    "static/media/Ideas Document.a476b150.png": "/static/media/Ideas Document.a476b150.png",
+    "static/media/Logo Heart.34ac5275.png": "/static/media/Logo Heart.34ac5275.png",
+    "static/media/Persona 1.682b2c6b.png": "/static/media/Persona 1.682b2c6b.png",
+    "static/media/Persona 2.9c35d86f.png": "/static/media/Persona 2.9c35d86f.png",
+    "static/media/Problem Pitch.0d3ad590.png": "/static/media/Problem Pitch.0d3ad590.png",
+    "static/media/Rui En.a29c9aca.jpg": "/static/media/Rui En.a29c9aca.jpg",
+    "static/media/Scrunchie.494bf9f5.png": "/static/media/Scrunchie.494bf9f5.png",
+    "static/media/Sewing Illustration.9bb4e4ad.svg": "/static/media/Sewing Illustration.9bb4e4ad.svg",
+    "static/media/Stephen.02da6a10.jpg": "/static/media/Stephen.02da6a10.jpg",
+    "static/media/Youtube Tutorial.898d4543.png": "/static/media/Youtube Tutorial.898d4543.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.000fb99b.js",
-    "static/js/2.47be9e65.chunk.js",
-    "static/css/main.e4643d3d.chunk.css",
-    "static/js/main.61856a6d.chunk.js"
+    "static/js/runtime-main.ee484b56.js",
+    "static/css/2.4a4d2903.chunk.css",
+    "static/js/2.a9e5f062.chunk.js",
+    "static/css/main.29d47b68.chunk.css",
+    "static/js/main.cdd7c817.chunk.js"
   ]
 }
