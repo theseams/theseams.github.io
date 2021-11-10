@@ -31,6 +31,11 @@ function NavBar() {
             ]}
           />
           <NavBarItem
+            header="Ideation"
+            to="/ideation"
+            subheaders={["Brainstorming", "Scenario", "Storyboard"]}
+          />
+          <NavBarItem
             header="Prototype"
             to="/prototype"
             subheaders={["Lofi Prototypes", "Hifi Prototypes"]}

@@ -4,7 +4,7 @@ import Section from "../components/Section";
 import Subsection from "../components/Subsection";
 import { Tabs, Tab } from "react-bootstrap";
 import NextButton from "../components/NextButton";
-import TableRow from "../components/LofiRow";
+import LofiRow from "../components/LofiRow";
 import HifiRow from "../components/HifiRow";
 
 function PrototypePage() {
@@ -29,47 +29,47 @@ function PrototypePage() {
           className="mb-3"
         >
           <Tab eventKey="Plan" title="Plan">
-            <TableRow
+            <LofiRow
               member="Jing Lin"
               link="https://drive.google.com/file/d/1DD11Ige2BGo21UjLVqFa1O2ADKzdUKZA/preview"
             />
-            <TableRow
+            <LofiRow
               member="Chun Yong"
               link="https://drive.google.com/file/d/1gnx9OTCYhqyjy1k_cm1uSOJZBKwhkxa_/preview"
             />
-            <TableRow
+            <LofiRow
               member="Hui Xian"
               link="https://drive.google.com/file/d/1-J66KiihdqvxQkmGWskYLsa9Rqt6gggZ/preview"
             />
           </Tab>
           <Tab eventKey="Measure" title="Measure">
-            <TableRow
+            <LofiRow
               member="Rui En"
               link="https://drive.google.com/file/d/1HoLf044tUz4PKEmQns_aWqT6SSawszYa/preview"
             />
-            <TableRow
+            <LofiRow
               member="Jing Lin"
               link="https://drive.google.com/file/d/1UxaHafxuOVOdGmd117ohNp66p8MS2b24/preview"
             />
-            <TableRow
+            <LofiRow
               member="Chun Yong"
               link="https://drive.google.com/file/d/1b5SlydrtTnzwejEOxlI77qq8catFBjbl/preview"
             />
-            <TableRow
+            <LofiRow
               member="Stephen"
               link="https://drive.google.com/file/d/1coi6_zc0v06a8WABKzitXXpCVzSrVmd7/preview"
             />
           </Tab>
           <Tab eventKey="Sew" title="Sew">
-            <TableRow
+            <LofiRow
               member="Rui En"
               link="https://drive.google.com/file/d/1qE-cM1qGJqQWhwZCQ28kG3D3OIlLpYb1/preview"
             />
-            <TableRow
+            <LofiRow
               member="Hui Xian"
               link="https://drive.google.com/file/d/1816BVAp5HyK-XuaMQg0vSuXpu3lYy5Nr/preview"
             />
-            <TableRow
+            <LofiRow
               member="Stephen"
               link="https://drive.google.com/file/d/1sNlRkI2wWJRRsCoG1ARcRJ3lFCmpbpxY/preview"
             />

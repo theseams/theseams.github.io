@@ -1,6 +1,6 @@
 import React from "react";
 
-function TableRow(props) {
+function LofiRow(props) {
   return (
     <p style={{ display: "flex" }}>
       <iframe
@@ -20,4 +20,4 @@ function TableRow(props) {
   );
 }
 
-export default TableRow;
+export default LofiRow;

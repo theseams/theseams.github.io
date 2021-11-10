@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import { Switch, Route } from "react-router-dom";
 import ProblemPage from "./pages/ProblemPage";
 import ResearchPage from "./pages/ResearchPage";
+import IdeationPage from "./pages/IdeationPage";
 import PrototypePage from "./pages/PrototypePage";
 import EvaluationPage from "./pages/EvaluationPage";
 import FinalResultPage from "./pages/FinalResultPage";
@@ -54,6 +55,9 @@ function App() {
             </Route>
             <Route exact path="/research">
               <ResearchPage />
+            </Route>
+            <Route exact path="/ideation">
+              <IdeationPage />
             </Route>
             <Route exact path="/prototype">
               <PrototypePage />

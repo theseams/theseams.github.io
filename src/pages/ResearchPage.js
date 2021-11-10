@@ -62,7 +62,7 @@ function ResearchPage() {
         <ol>
           <li>
             What pain points do upcyclers face when trying to turn their designs
-            into reality/modifying their clothes?
+            into reality?
           </li>
           <li>Is visualising their final product a pain point when sewing?</li>
           <li>
@@ -72,12 +72,15 @@ function ResearchPage() {
           <li>To what extent are upcyclers interested in upcycling?</li>
         </ol>
         <p>
-          Questions 1, 3 and 4 are exploratory questions designed for us to
-          learn more about the practices of sewing and upcycling and the pain
-          points associated with them, whereas question 2 aims to validate our
-          prior knowledge and assumptions.
+          We expected to learn about the practices of upcycling and the pain
+          points associated in the process. Hence, we designed the exploratory
+          questions 1, 3 and 4.
         </p>
-        <p>todo expected findings</p>
+        <p>
+          We had previously assumed that people upcycle clothing to reduce
+          fashion waste and save the environment. Therefore, question 2 serves
+          as a way for us to test the validity of the assumption.
+        </p>
       </Subsection>
       <Subsection title="During the Interview" id="During the Interview">
         <p>
@@ -190,18 +193,17 @@ function ResearchPage() {
           interview, we drew an affinity diagram, a sequence diagram and a
           cultural diagram.
         </p>
-        <br />
-        <iframe
-          title="Miro Whiteboard"
-          width="768"
-          height="432"
-          src="https://miro.com/app/live-embed/o9J_lzDB29E=/?moveToViewport=-10357,-4627,14697,7216"
-          frameBorder="0"
-          scrolling="no"
-          allowFullScreen
-        ></iframe>
-        <br />
-        <br />
+        <p>
+          <iframe
+            title="Miro Whiteboard"
+            width="768"
+            height="432"
+            src="https://miro.com/app/live-embed/o9J_lzDB29E=/?moveToViewport=-10357,-4627,14697,7216"
+            frameBorder="0"
+            scrolling="no"
+            allowFullScreen
+          ></iframe>
+        </p>
         <p>Our analysis revealed several surprising findings:</p>
         <ol>
           <li>
@@ -256,11 +258,26 @@ function ResearchPage() {
           Based on the findings, we understood our target user group better and
           we created two personas.
         </p>
-        <p>[todo: explain]</p>
+        <p>
+          Our first persona is Amy. She is proficient in sewing, and she tends
+          to dive straight into sewing an upcycled product after briefly
+          visualising what she wants to do in her head. Hence, her final
+          products do not always turn out as she envisioned.
+        </p>
         <StoryImage width="70%" image={persona1Image} />
+        <p>
+          The other persona, Olivia represents the demographic of users who are
+          more inclined towards design as compared to sewing. We chose this
+          persona because we found that some interviewees had greater trouble
+          with the execution segment of their projects, as they were less
+          experienced with sewing than other interviewees. We also found that
+          some interviewees already had a very good idea of what they wanted to
+          create before starting the upcycling process. Therefore, we strived to
+          ensure that our app would not hinder their speed in the design aspect.
+        </p>
         <StoryImage width="70%" image={persona2Image} />
       </Subsection>
-      <NextButton to="/prototype" title="Prototype" />
+      <NextButton to="/ideation" title="Ideation" />
     </div>
   );
 }
