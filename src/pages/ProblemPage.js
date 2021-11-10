@@ -15,7 +15,7 @@ function ProblemPage() {
       <Helmet title="Problem" />
       <Section title="Problem">
         <p>
-          One fine day, an upcyler is casually scrolling through Youtube. She
+          One fine day, an upcycler is casually scrolling through Youtube. She
           comes across a tutorial that guides sewists to sew a totebag using a
           pair of jeans. She likes how the final product looks, and she is
           excited to try it out!
@@ -26,9 +26,10 @@ function ProblemPage() {
           link="https://www.youtube.com/watch?v=bxiCj9u0WQE"
         />
         <p>
-          However, she is hesitant to actually start sewing, because she is
-          reminded of the <i>Expectations vs Reality</i> problem. She has failed
-          several upcycling projects in the past as she faced difficulties when
+          However, she is hesitant to actually start sewing, because her final
+          product does not always match her desired design. This is the{" "}
+          <i>Expectations vs Reality</i> problem. She has failed several
+          upcycling projects in the past as she faced difficulties when
           following through with Do-It-Yourself (DIY) tutorials. Sometimes, when
           she thought of deviating slightly from the tutorial and adding in her
           personal touch of design, she found it hard to imagine how the final
@@ -41,7 +42,7 @@ function ProblemPage() {
         />
         <p>
           These challenges make it difficult for upcyclers to experiment with
-          their clothes. While it is encouraging to see upcylists partaking in
+          their clothes. While it is encouraging to see upcyclers partaking in
           the ethical fashion movement, it is regretful for those who eventually
           gave up on their projects due to sewing tribulations.
         </p>
@@ -59,10 +60,13 @@ function ProblemPage() {
         <StoryImage width="50%" image={problemPitchImg} />
         <p>
           Our team concurred with the problem of fashion wastage. After careful
-          consideration, we decided to approach the problem from a consumer
-          perspective to an upcycler perspective. This was an interesting turn
-          of events, as none of us sew as a hobby. As a team, we felt that it
-          would be [fill in the blank].
+          consideration, we decided to approach the problem from an upcycler's
+          perspective instead of a consumer's perspective. This was an
+          interesting turn of events, as none of us sew as a hobby. As a team,
+          we felt that the challenges faced by upcyclers are rather
+          underrespresented in the fashion industry. It would be more compelling
+          to address the problems faced by upcyclers, rather than consumers,
+          where there are a lot of existing solutions in place.
         </p>
       </Subsection>
       <Subsection title="Why did we choose this problem" id="Why we chose this">

@@ -14,13 +14,12 @@ function OurTeamPage() {
       <Helmet title="Our Team" />
       <Section title="Our Team">
         We are friends who wanted to learn more about designs and user
-        interaction. This idea came from Rui En's project pitch. We decided to
-        work on this idea because it is a unique and realistic problem.
+        interaction.
       </Section>
       <Subsection title="Neo Rui En Maybelline" id="Rui En">
         <div style={{ display: "flex" }}>
           <img src={RuiEnImg} className="my-picture" />
-          <p>Rolling like a coconut</p>
+          <p>Seamplicity is key for good design</p>
         </div>
       </Subsection>
       <Subsection title="Shi Jing Lin" id="Jing Lin">

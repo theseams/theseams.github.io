@@ -50,9 +50,8 @@ function ResearchPage() {
       <Subsection title="Before the Interview" id="Before the Interview">
         <p>
           One of our team members, Hui Xian, is well connected to upcycling
-          hobbyists who have shared their experiences with upcycling projects.
-          Through her connections, we began planning interviews with experienced
-          upcyclers who have worked on many upcycling projects.
+          hobbyists. Through her connections, we began planning interviews with
+          upcyclers who have worked on upcycling projects.
         </p>
         <p>
           As we are not experienced sewists or upcyclers, we defined the focus
@@ -62,15 +61,15 @@ function ResearchPage() {
         </p>
         <ol>
           <li>
-            What pain points do DIY-ers face when trying to turn their designs
+            What pain points do upcyclers face when trying to turn their designs
             into reality/modifying their clothes?
           </li>
           <li>Is visualising their final product a pain point when sewing?</li>
           <li>
-            To what extent are DIY-ers successful at turning their designs into
-            reality?
+            To what extent are upcyclers successful at turning their designs
+            into reality?
           </li>
-          <li>To what extent are DIY-ers interested in upcycling?</li>
+          <li>To what extent are upcyclers interested in upcycling?</li>
         </ol>
         <p>
           Questions 1, 3 and 4 are exploratory questions designed for us to
@@ -78,6 +77,7 @@ function ResearchPage() {
           points associated with them, whereas question 2 aims to validate our
           prior knowledge and assumptions.
         </p>
+        <p>todo expected findings</p>
       </Subsection>
       <Subsection title="During the Interview" id="During the Interview">
         <p>
@@ -105,6 +105,11 @@ function ResearchPage() {
                 <p>
                   Sewing Experience: She has been sewing since secondary school
                 </p>
+                <p>
+                  Upcycling task: She upcycled a sleeve of a blouse into a
+                  scrunchie from scratch. By the end of the inquiry, she managed
+                  to finish it.
+                </p>
               </div>
             </div>
           </Tab>
@@ -123,6 +128,13 @@ function ResearchPage() {
                   Occupation: Year 4 Undergraduate, studying Industrial Design
                 </p>
                 <p>Sewing Experience: 3-4 years</p>
+                <p>
+                  Upcycling task: She picked up one of her failed upcycling
+                  projects, which is to create a crop top, and she attempted to
+                  finish it. Though she managed to finish sewing it by the end
+                  of the inquiry, the stitching ripped when she tried it on and
+                  she discontinued the project for now.
+                </p>
               </div>
             </div>
           </Tab>
@@ -139,16 +151,21 @@ function ResearchPage() {
                 <p>Gender: Female</p>
                 <p>Occupation: University Graduate, studied Accounting</p>
                 <p>Sewing Experience: 2-3 years</p>
+                <p>
+                  Upcycling task: She upcycled an old pair of jeans into a
+                  bucket hat from scratch. As the project required more time
+                  than what the inquiry allowed, she only managed to finish the
+                  foundation of the hat.
+                </p>
               </div>
             </div>
           </Tab>
         </Tabs>
         <br />
         <p>
-          A few things went well for us. We found that it was easy to ask
-          questions about what our interviewees were doing as we observed them
-          work. We would not have thought of these questions if we were to
-          conduct an interview, as we lacked sewing experience. Furthermore,
+          A few things went well for us. We found it easy to apply the
+          master-apprentice model. As we lacked sewing experience, questions
+          regarding our interviewees' work came naturally to us. Furthermore,
           asking about their failed projects led to in-depth answers about the
           struggles that the interviewees had faced. They were willing to share
           their troubles and pain points, which provided us a great deal of
@@ -214,7 +231,10 @@ function ResearchPage() {
             visualisations through paper prototypes.
           </li>
         </ol>
-        <p>Lastly, we were able to identify 3 key user tasks:</p>
+        <p>
+          Lastly, we were able to identify 3 key user tasks: [todo: explain why
+          we chose them]
+        </p>
         <ol>
           <li>
             <b>Plan: </b> View the possible upcycling projects that can be done
@@ -236,6 +256,7 @@ function ResearchPage() {
           Based on the findings, we understood our target user group better and
           we created two personas.
         </p>
+        <p>[todo: explain]</p>
         <StoryImage width="70%" image={persona1Image} />
         <StoryImage width="70%" image={persona2Image} />
       </Subsection>

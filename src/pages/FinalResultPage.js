@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet";
 import Section from "../components/Section";
 import Subsection from "../components/Subsection";
 import FigmaEmbed from "react-figma-embed";
+import NextButton from "../components/NextButton";
 
 function FinalResultPage() {
   return (
@@ -9,8 +10,9 @@ function FinalResultPage() {
       <Helmet title="Final Result" />
       <Section title="Final Result" id="Final Result">
         Ta-da! Finally, we have finished the project. Presenting to you,{" "}
-        <b>Interactive_Prototype_FINALFINAL</b>, along with a video that guides
-        you through the entire project.
+        <b>Interactive_Prototype_FINALFINAL</b>, along with a video that
+        features the 5 founders of The Seams who will guide you through the
+        entire project.
       </Section>
       <Subsection title="Interactive Prototype" id="Interactive Prototype">
         <FigmaEmbed url="https://www.figma.com/proto/R4wgcmlLmVbchwbHTpGSk1/HiFi-Iteration-1?node-id=2%3A466&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A466" />
@@ -45,6 +47,7 @@ function FinalResultPage() {
           our users.
         </p>
       </Subsection>
+      <NextButton to="/our-team" title="Our Team" />
     </div>
   );
 }
