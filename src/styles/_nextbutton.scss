@@ -12,7 +12,7 @@
       padding: 0.75rem 2rem;
       background: none;
       color: $primary;
-      border: 3px solid $primary;
+      border: 2px solid $primary;
       border-radius: 50px;
       outline: none;
       font-family: inherit;
@@ -20,7 +20,23 @@
       text-transform: uppercase;
       cursor: pointer;
       letter-spacing: 2px;
-      font-weight: 700;
+      font-weight: 600;
+      &:hover {
+        background: lighten($color: $primary, $amount: 32.5);
+      }
+      @media screen and (max-width: 700px) {
+        font-size: 1rem;
+        padding: 0.7rem 2rem;
+      }
+      @media screen and (max-width: 500px) {
+        font-size: 0.9rem;
+        padding: 0.6rem 2rem;
+      }
+      .right-arrow {
+        margin: auto;
+        margin-left: 1rem;
+        width: 0.6rem;
+      }
     }
   }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import rightArrow from "../img/Right Arrow.svg";
 
 function NextButton(props) {
   return (
@@ -10,7 +11,10 @@ function NextButton(props) {
         activeClassName="active"
         className="nav-link"
       >
-        <button>Next: {props.title}</button>
+        <button>
+          {props.title}
+          <img src={rightArrow} alt="next" className="right-arrow" />
+        </button>
       </NavLink>
     </div>
   );

@@ -37,13 +37,14 @@ function App() {
       >
         <NavBar />
       </div>
-      <div className="nav-btn" onClick={toggleNav}>
-        <div className="lines-1"></div>
-        <div className="lines-2"></div>
-        <div className="lines-3"></div>
-      </div>
-      <div className="main-content" onClick={closeNav}>
+
+      <div className="main-content">
         <div className="content">
+          <div className="nav-btn" onClick={toggleNav}>
+            <div className="lines-1"></div>
+            <div className="lines-2"></div>
+            <div className="lines-3"></div>
+          </div>
           <Switch>
             <Route exact path="/">
               <HomePage />
