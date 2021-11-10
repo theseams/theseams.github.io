@@ -4,7 +4,7 @@ function LofiRow(props) {
   return (
     <p style={{ display: "flex" }}>
       <iframe
-        style={{ marginRight: "2rem" }}
+        style={{ marginRight: "2rem", maxWidth: "45%" }}
         title="Lofi"
         src={props.link}
         width="480"
@@ -13,8 +13,7 @@ function LofiRow(props) {
       ></iframe>
       <div>
         <p>This prototype was created by {props.member}.</p>
-        <p>Pros:</p>
-        <p>Cons:</p>
+        <p>{props.children}</p>
       </div>
     </p>
   );

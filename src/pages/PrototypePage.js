@@ -32,15 +32,23 @@ function PrototypePage() {
             <LofiRow
               member="Jing Lin"
               link="https://drive.google.com/file/d/1DD11Ige2BGo21UjLVqFa1O2ADKzdUKZA/preview"
-            />
+            >
+              His prototype explores the initial setting up part of the
+              application.
+            </LofiRow>
             <LofiRow
               member="Chun Yong"
               link="https://drive.google.com/file/d/1gnx9OTCYhqyjy1k_cm1uSOJZBKwhkxa_/preview"
-            />
+            >
+              His prototype features a slideshow method of viewing the possible
+              upcycling designs.
+            </LofiRow>
             <LofiRow
               member="Hui Xian"
               link="https://drive.google.com/file/d/1-J66KiihdqvxQkmGWskYLsa9Rqt6gggZ/preview"
-            />
+            >
+              Her prototype
+            </LofiRow>
           </Tab>
           <Tab eventKey="Measure" title="Measure">
             <LofiRow
