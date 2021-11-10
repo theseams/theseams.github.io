@@ -5,17 +5,19 @@ import rightArrow from "../img/Right Arrow.svg";
 function NextButton(props) {
   return (
     <div className="NextButton">
-      <NavLink
-        to={props.to}
-        exact
-        activeClassName="active"
-        className="nav-link"
-      >
-        <button>
-          {props.title}
-          <img src={rightArrow} alt="next" className="right-arrow" />
-        </button>
-      </NavLink>
+      <div className="btn-content">
+        <NavLink
+          to={props.to}
+          exact
+          activeClassName="active"
+          className="nav-link"
+        >
+          <button>
+            {props.title}
+            <img src={rightArrow} alt="next" className="right-arrow" />
+          </button>
+        </NavLink>
+      </div>
     </div>
   );
 }
