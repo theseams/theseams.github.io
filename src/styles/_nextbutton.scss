@@ -1,0 +1,26 @@
+@import "./colors";
+
+.NextButton {
+  margin: auto;
+  .nav-link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    button {
+      display: flex;
+      justify-self: center;
+      padding: 0.75rem 2rem;
+      background: none;
+      color: $primary;
+      border: 3px solid $primary;
+      border-radius: 50px;
+      outline: none;
+      font-family: inherit;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      cursor: pointer;
+      letter-spacing: 2px;
+      font-weight: 700;
+    }
+  }
+}

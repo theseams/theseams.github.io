@@ -1,0 +1,53 @@
+@import "./styles/layout";
+@import "./styles/navbar";
+@import "./styles/home";
+@import "./styles/title";
+@import "./styles/section";
+@import "./styles/nextbutton";
+@import "./styles/storyimage";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: $primary;
+  border-radius: 50px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #bdbdbd;
+}
+
+body {
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+}
+span {
+  color: $primary;
+}
+
+@media screen and (max-width: 411px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 70%;
+  }
+  h3 {
+    font-size: 90%;
+  }
+}

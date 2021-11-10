@@ -1,0 +1,118 @@
+@import "./colors";
+
+.App {
+  .sidebar {
+    width: 13%;
+    height: 100vh;
+    background: $primary;
+    position: fixed;
+    z-index: 11;
+    transform-origin: left;
+    @media screen and (max-width: 1000px) {
+      transition: all 0.4s ease-in-out;
+      transform: translateX(-100%);
+      width: 30%;
+    }
+    @media screen and (max-width: 411px) {
+      width: 50%;
+    }
+  }
+  .nav-toggle {
+    @media screen and (max-width: 1000px) {
+      transition: all 0.4s ease-in-out;
+      transform: translateX(0);
+    }
+  }
+
+  .main-content {
+    width: 87%;
+    background: #fffeff;
+    margin-left: 13%;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    padding: 5rem;
+    .content {
+      width: 100%;
+      @media screen and (max-width: 1000px) {
+        width: 75%;
+        margin: 3rem 0;
+        margin-left: 13%;
+      }
+    }
+    @media screen and (max-width: 1000px) {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+}
+
+.nav-btn {
+  position: absolute;
+  z-index: 10;
+  right: 11%;
+  top: 3.6rem;
+  width: 4rem;
+  height: 4rem;
+  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  @media screen and (max-width: 1000px) {
+    display: block;
+  }
+  @media screen and (max-width: 480px) {
+    display: block;
+    width: 3rem;
+  }
+  .lines-1,
+  .lines-2,
+  .lines-3 {
+    height: 0.4rem;
+    width: 3.5rem;
+    background-color: $primary;
+    pointer-events: none;
+    display: none;
+    border-radius: 20px;
+    &:not(:last-child) {
+      margin-bottom: 0.5rem;
+    }
+    @media screen and (max-width: 1000px) {
+      display: block;
+    }
+    @media screen and (max-width: 480px) {
+      display: block;
+      width: 3rem;
+    }
+  }
+}
+
+.my-button {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 0.75rem 2rem;
+  background: none;
+  color: $primary;
+  border: 2px solid $primary;
+  border-radius: 50px;
+  outline: none;
+  font-family: inherit;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+  font-weight: 500;
+  @media screen and (max-width: 460px) {
+    font-size: 1.1rem;
+  }
+}
+
+.my-picture {
+  width: 15rem;
+  border-radius: 5px;
+}

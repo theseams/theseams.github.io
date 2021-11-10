@@ -1,0 +1,39 @@
+@import "./colors";
+
+.Title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 1rem;
+  letter-spacing: 1px;
+  &::after {
+    width: 100%;
+    content: "";
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    background-color: $primary;
+    height: 0.4rem;
+    border-radius: 50px;
+  }
+}
+
+.Subtitle {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 1rem;
+  letter-spacing: 1px;
+  &::after {
+    width: 100%;
+    content: "";
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    background-color: lighten($primary, 25%);
+    height: 0.4rem;
+    border-radius: 50px;
+  }
+}

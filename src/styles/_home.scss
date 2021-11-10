@@ -1,0 +1,49 @@
+@import "./colors";
+
+.HomePage {
+  margin: -5rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  @media screen and (max-width: 1000px) {
+    transform: translate(-50%, -50%);
+  }
+  .logo {
+    width: 6rem;
+  }
+  .home-text {
+    text-align: center;
+    font-size: 3.6rem;
+    font-weight: 500;
+    @media screen and (max-width: 460px) {
+      font-size: 3rem;
+    }
+    @media screen and (max-width: 385px) {
+      font-size: 2.5rem;
+    }
+    span {
+      color: $primary;
+    }
+  }
+  .home-subtext {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    @media screen and (max-width: 460px) {
+      font-size: 1.4rem;
+    }
+    @media screen and (max-width: 385px) {
+      font-size: 1.2rem;
+    }
+  }
+  .illustration {
+    position: absolute;
+    bottom: 0;
+    right: 3rem;
+    width: 35rem;
+  }
+}
