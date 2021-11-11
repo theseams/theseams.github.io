@@ -27,6 +27,7 @@ function NavBar() {
               "Before the Interview",
               "During the Interview",
               "After the Interview",
+              "Key User Tasks",
               "Personas",
             ]}
           />

@@ -1,31 +1,19 @@
 .StoryboardRow {
-  margin: 2rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  padding: 2rem;
   .scenario {
-    max-width: 75%;
-    padding-right: 5rem;
-  }
-  .storyboard {
-    // width: 20%;
+    max-width: 65%;
+    margin-right: 3rem;
   }
 }
 
 .PersonaRow {
-  margin: 2rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  padding: 2rem;
-  .scenario {
-    max-width: 25%;
-    padding-right: 5rem;
-  }
-  .storyboard {
-    // width: 20%;
+  p {
+    max-width: 30%;
+    margin-right: 3rem;
   }
 }

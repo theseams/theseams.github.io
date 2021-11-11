@@ -234,6 +234,8 @@ function ResearchPage() {
             visualisations through paper prototypes.
           </li>
         </ol>
+      </Subsection>
+      <Subsection title="Key User Tasks" id="Key User Tasks">
         <p>
           Lastly, we were able to identify 3 key user tasks: [todo: explain why
           we chose them]
@@ -260,25 +262,20 @@ function ResearchPage() {
           we created two personas.
         </p>
         <PersonaRow image={persona1Image}>
-          <p>
-            Our first persona is Amy. She is proficient in sewing, and she tends
-            to dive straight into sewing an upcycled product after briefly
-            visualising what she wants to do in her head. Hence, her final
-            products do not always turn out as she envisioned.
-          </p>
+          Our first persona is Amy. She is proficient in sewing, and she tends
+          to dive straight into sewing an upcycled product after briefly
+          visualising what she wants to do in her head. Hence, her final
+          products do not always turn out as she envisioned.
         </PersonaRow>
         <PersonaRow image={persona2Image}>
-          <p>
-            The other persona, Olivia represents the demographic of users who
-            are more inclined towards design as compared to sewing. We chose
-            this persona because we found that some interviewees had greater
-            trouble with the execution segment of their projects, as they were
-            less experienced with sewing than other interviewees. We also found
-            that some interviewees already had a very good idea of what they
-            wanted to create before starting the upcycling process. Therefore,
-            we strived to ensure that our app would not hinder their speed in
-            the design aspect.
-          </p>
+          The other persona, Olivia represents the demographic of users who are
+          more inclined towards design as compared to sewing. We chose this
+          persona because we found that some interviewees had greater trouble
+          with the execution segment of their projects, as they were less
+          experienced with sewing than other interviewees. We also found that
+          some interviewees already had a very good idea of what they wanted to
+          create before starting the upcycling process. Therefore, we strived to
+          ensure that our app would not hinder their speed in the design aspect.
         </PersonaRow>
       </Subsection>
       <NextButton to="/ideation" title="Ideation" />

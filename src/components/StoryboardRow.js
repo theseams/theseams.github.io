@@ -1,15 +1,18 @@
 import React from "react";
 import StoryImage from "./StoryImage";
+import Card from "../components/Card";
 
 function StoryboardRow(props) {
   return (
-    <div className="StoryboardRow">
-      <div className="scenario">
-        <b>{props.title}</b>
-        <p>{props.children}</p>
+    <Card>
+      <div className="StoryboardRow">
+        <div className="scenario">
+          <b>{props.title}</b>
+          <p>{props.children}</p>
+        </div>
+        <StoryImage image={props.image} link="" />
       </div>
-      <StoryImage className="storyboard" image={props.image} link="" />
-    </div>
+    </Card>
   );
 }
 
