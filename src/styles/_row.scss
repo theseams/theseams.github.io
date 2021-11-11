@@ -17,3 +17,22 @@
     margin-right: 3rem;
   }
 }
+
+.LofiRow {
+  display: flex;
+  margin-top: 1.75rem;
+  iframe {
+    margin-right: 2rem;
+    border-top: 1px solid #c3c3c3;
+    border-bottom: 1.5px solid #c3c3c3;
+  }
+}
+
+.HifiRow {
+  display: flex;
+  margin-top: 1.75rem;
+  .hifi-content {
+    margin-left: 2rem;
+    width: 74%;
+  }
+}
