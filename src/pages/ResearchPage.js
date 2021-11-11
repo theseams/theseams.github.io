@@ -3,8 +3,6 @@ import { Helmet } from "react-helmet";
 import Section from "../components/Section";
 import Subsection from "../components/Subsection";
 import NextButton from "../components/NextButton";
-import StoryImage from "../components/StoryImage";
-import beanieFailImage from "../img/story/Beanie Fail.png";
 import scrunchieImage from "../img/story/Scrunchie.png";
 import cropTopImage from "../img/story/Crop Top.png";
 import bucketHatImage from "../img/story/Bucket Hat.png";
@@ -29,8 +27,8 @@ function ResearchPage() {
       <Subsection title="Target Audience" id="Target Audience">
         <p>
           We have identified{" "}
-          <b>upcyclers who are tech-savvy and familiar with sewing</b> as our
-          target user group.
+          <b>upcyclers who are tech-savvy and have basic sewing capabilities</b>{" "}
+          as our target user group.
         </p>
         <p>
           Tech-savvy upcyclers tend to explore social media platforms to get
@@ -48,11 +46,6 @@ function ResearchPage() {
           projects, instead of guiding beginner sewists into the world of
           upcycling.
         </p>
-        <StoryImage
-          width="35%"
-          image={beanieFailImage}
-          link="http://adambstingus.weebly.com/home/10-diy-fails-that-are-so-terrible-its-impossible-not-to-laugh-at"
-        />
       </Subsection>
       <Subsection title="Before the Interview" id="Before the Interview">
         <p>
@@ -169,88 +162,82 @@ function ResearchPage() {
           interview, we drew an affinity diagram, a sequence diagram and a
           cultural diagram.
         </p>
-        <p>
+        <p
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
           <iframe
-            title="Miro Whiteboard"
-            width="768"
-            height="432"
+            title="Affinity, Sequence and Cultural"
+            className="iframe-fullwidth"
             src="https://miro.com/app/live-embed/o9J_lzDB29E=/?moveToViewport=-10357,-4627,14697,7216"
             frameBorder="0"
             scrolling="no"
             allowFullScreen
-          ></iframe>
+          />
         </p>
         <p>Our analysis revealed several surprising findings:</p>
-        <ol>
+        <ul className="shocked-ul">
           <li>
-            Some of the motivations for upcycling highlighted by our
-            interviewees include the satisfaction derived from revamping their
-            old clothes that have sentimental value, and engaging in the hobby
-            of sewing. This finding made us rethink our initial framing of the
+            Our interviewees' motivations for upcycling do not include the
+            desire to reduce fashion waste and save the environment. Instead,
+            they highlighted the satisfaction derived from revamping their old
+            clothes that have sentimental value, and engaging in the hobby of
+            sewing. This finding made us rethink our initial framing of the
             individual’s environmental social-responsibility as the key
             motivating factor for upcycling.
           </li>
           <li>
-            One unexpected discovery we made was that unit conversion was an
-            issue as well, as most online tutorials used inches rather than
-            centimeters, leading to the inconvenience of having to convert
-            between units of measurement. We will have to keep this in mind
-            during our design phase.
+            Different interviewees have conflicting opinions on what would be an
+            ideal solution to help them envision how the final product would
+            look like. While interviewee 3 prefers having a 3D visualisation
+            software for prototyping the end product, it was not an ideal
+            solution for interviewee 1, who prefers visualisations through paper
+            prototypes.
           </li>
-          <li>
-            The biggest takeaway we had was that the most difficult struggle
-            echoed by all interviewees was that they are unable to smoothly
-            execute the steps required to reach the final design. This caused
-            the end result to be different from what they envisioned it to be.
-            Surprisingly, different interviewees also have conflicting opinions
-            on what would be an ideal solution. While interviewee 3 prefers
-            having a 3D visualisation software for prototyping the end product,
-            it was not an ideal solution for interviewee 1, who prefers
-            visualisations through paper prototypes.
-          </li>
-        </ol>
+        </ul>
       </Subsection>
       <Subsection title="Key User Tasks" id="Key User Tasks">
         <p>
-          Lastly, we were able to identify 3 key user tasks: [todo: explain why
-          we chose them]
+          From the affinity diagram, we were able to easily identify 3 key user
+          tasks.
         </p>
-        <ol>
-          <li>
-            <b>Plan: </b> View the possible upcycling projects that can be done
-            with the kind of clothes they want to upcycle.
-          </li>
-          <li>
-            <b>Measure: </b> Visualise how the final product would look like on
-            himself/herself, and customise the size of the product as necessary.
-            stage.
-          </li>
-          <li>
-            <b>Sew: </b> Begin sewing the product, solving any issues that crop
-            up along the way.
-          </li>
-        </ol>
+        <Card>
+          <b>Plan - Viewing possibilities</b>
+          View the possible upcycling projects that can be done with the kind of
+          clothes they want to upcycle
+        </Card>
+        <Card>
+          <b>Measure - Visualizing final product</b>
+          Visualise how the final product would look like on the user, and
+          customise the size of the product as necessary
+        </Card>
+        <Card>
+          <b>Sew - Creating final product</b>
+          Begin sewing the product, solving any issues that crop up along the
+          way
+        </Card>
       </Subsection>
       <Subsection title="Personas" id="Personas">
         <p>
-          Based on the findings, we understood our target user group better and
-          we created two personas.
+          After having a better understanding of our target user group, we
+          created personas with different levels of sewing experience and design
+          expertise. This is to cater to the range of sewing and technological
+          proficiencies within our target user group of upcyclers.
         </p>
         <PersonaRow image={persona1Image}>
-          Our first persona is Amy. She is proficient in sewing, and she tends
-          to dive straight into sewing an upcycled product after briefly
-          visualising what she wants to do in her head. Hence, her final
-          products do not always turn out as she envisioned.
+          Amy is proficient in sewing. Yet, she tends to dive straight into
+          sewing an upcycled product after briefly visualising what she wants to
+          do in her head. Hence, her final products do not always turn out as
+          she envisioned.
         </PersonaRow>
         <PersonaRow image={persona2Image}>
-          The other persona, Olivia represents the demographic of users who are
-          more inclined towards design as compared to sewing. We chose this
-          persona because we found that some interviewees had greater trouble
-          with the execution segment of their projects, as they were less
-          experienced with sewing than other interviewees. We also found that
-          some interviewees already had a very good idea of what they wanted to
-          create before starting the upcycling process. Therefore, we strived to
-          ensure that our app would not hinder their speed in the design aspect.
+          Olivia is proficient in design Typically, she begins an upcycling
+          project with a very good idea of what she wants to create. However,
+          she finds it difficult to execute the projects, as she is not that
+          experienced with sewing.
         </PersonaRow>
       </Subsection>
       <NextButton to="/ideation" title="💡 Conceptualise ideas" />

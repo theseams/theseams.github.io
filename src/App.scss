@@ -19,6 +19,7 @@
   }
   ol {
     counter-reset: item;
+    padding: 0 !important;
   }
   ol li {
     display: block;
@@ -29,6 +30,26 @@
     font-weight: 700;
     color: darken($primary, 35);
   }
+  ul {
+    position: relative;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1.2em;
+  }
+}
+
+.shocked-ul li:before {
+  content: "😲";
+  position: absolute;
+  left: 0;
+}
+.shocked-ul li {
+  margin-bottom: 0.5rem;
+}
+
+.iframe-fullwidth {
+  width: calc(87vw - 10rem);
+  height: calc((87vw - 10rem) * 0.5625);
 }
 
 .nav-link.active {

@@ -5,7 +5,7 @@ import Section from "../components/Section";
 import Subsection from "../components/Subsection";
 import StoryImage from "../components/StoryImage";
 import youtubeTutorialImg from "../img/story/Youtube Tutorial.png";
-import holdingJeansImg from "../img/story/Holding Jeans.png";
+import beanieFailImage from "../img/story/Beanie Fail.png";
 import problemPitchImg from "../img/story/Problem Pitch.png";
 import ideasDocumentImg from "../img/story/Ideas Document.png";
 
@@ -37,7 +37,7 @@ function ProblemPage() {
         </p>
         <StoryImage
           width="45%"
-          image={holdingJeansImg}
+          image={beanieFailImage}
           link="https://www.realsimple.com/shop/womens-fashion/customizable-jeans-levis-sc281474979946582.html"
         />
         <p>
