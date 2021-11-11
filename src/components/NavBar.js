@@ -44,13 +44,18 @@ function NavBar() {
           <NavBarItem
             header="Evaluation"
             to="/evaluation"
-            subheaders={["Group Prototype", "User Evaluation"]}
+            subheaders={[
+              "Group Prototype",
+              "Evaluation Method",
+              "Findings and Changes",
+            ]}
           />
           <NavBarItem
             header="Final Result"
             to="/final-result"
             subheaders={[
               "Interactive Prototype",
+              "Effectiveness",
               "Presentation Video",
               "Future Work",
             ]}

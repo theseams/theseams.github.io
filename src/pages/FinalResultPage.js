@@ -1,7 +1,6 @@
 import { Helmet } from "react-helmet";
 import Section from "../components/Section";
 import Subsection from "../components/Subsection";
-import FigmaEmbed from "react-figma-embed";
 import NextButton from "../components/NextButton";
 
 function FinalResultPage() {
@@ -15,12 +14,33 @@ function FinalResultPage() {
         entire project.
       </Section>
       <Subsection title="Interactive Prototype" id="Interactive Prototype">
-        <FigmaEmbed url="https://www.figma.com/proto/R4wgcmlLmVbchwbHTpGSk1/HiFi-Iteration-1?node-id=2%3A466&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A466" />
+        <iframe
+          title="Group Prototype"
+          style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
+          className="figma-full"
+          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FR4wgcmlLmVbchwbHTpGSk1%2FThe-Seams%3Fnode-id%3D2%253A466%26scaling%3Dmin-zoom%26page-id%3D0%253A1%26starting-point-node-id%3D2%253A466%26show-proto-sidebar%3D1"
+          allowfullscreen
+        ></iframe>
+      </Subsection>
+      <Subsection title="Effectiveness" id="Effectiveness">
+        <p>
+          Through multiple iterations of rigorous evaluation, our team has
+          refined our design solution to have an intuitive and efficient user
+          flow by (1) simplifying user flow, (2) clear signposting for user
+          action, and (3) minimising errors.
+        </p>
+        <p>
+          Our users have validated the effectiveness of our design solution in
+          addressing the core design problem that our team has identified.
+          During our user evaluation, our target users mentioned that they find
+          our prototype useful in tackling the pain points of visualising and
+          executing upcycling projects. Validation from our users is the best
+          indicator of our design’s success.
+        </p>
       </Subsection>
       <Subsection title="Presentation Video" id="Presentation Video">
         <iframe
-          width="560"
-          height="315"
+          className="figma-full"
           src="https://www.youtube.com/embed/jxS1D28vmUw"
           title="YouTube video player"
           frameborder="0"
