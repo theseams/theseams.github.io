@@ -40,8 +40,10 @@ function PrototypePage() {
               member="Chun Yong"
               link="https://drive.google.com/file/d/1gnx9OTCYhqyjy1k_cm1uSOJZBKwhkxa_/preview"
             >
-              His prototype features a slideshow method of viewing the possible
-              upcycling designs.
+              Our team liked the welcome screen, as the instructions were clear
+              to first-time users on how to start visualizing the projects.
+              However, we felt that the play/pause randomizer may be too
+              overwhelming for the users.
             </LofiRow>
             <LofiRow
               member="Hui Xian"
@@ -54,11 +56,65 @@ function PrototypePage() {
             <LofiRow
               member="Rui En"
               link="https://drive.google.com/file/d/1HoLf044tUz4PKEmQns_aWqT6SSawszYa/preview"
-            />
+            >
+              <p>Our team appreciated the following aspects:</p>
+              <ul>
+                <li>Simplistic and user-friendly design</li>
+                <li>Easy toggling between Build mode and AR Selfie mode</li>
+                <li>
+                  Comprehensive list of the components of the product: this lets
+                  the user xxxx
+                </li>
+                <li>Easy choice of a desired measurement unit</li>
+              </ul>
+              <p>
+                Our team felt that these aspects could be modified or excluded:
+              </p>
+              <ul>
+                <li>
+                  The Move and Rotate functions may cause some components to
+                  separate from the rest of the components, since the components
+                  of the product would be connected together to form a fashion
+                  item.
+                </li>
+                <li>
+                  The Style function should not be included, as the fabric type
+                  has already been chosen in user task 1, and the fabric’s color
+                  is unable to be easily changed.
+                </li>
+              </ul>
+            </LofiRow>
             <LofiRow
               member="Jing Lin"
               link="https://drive.google.com/file/d/1UxaHafxuOVOdGmd117ohNp66p8MS2b24/preview"
-            />
+            >
+              <p>Our team appreciated the following aspects:</p>
+              <ul>
+                <li>Simplistic and user-friendly design</li>
+                <li>Easy toggling between Build mode and AR Selfie mode</li>
+                <li>
+                  Comprehensive list of the components of the product: this lets
+                  the user xxxx
+                </li>
+                <li>Easy choice of a desired measurement unit</li>
+              </ul>
+              <p>
+                Our team felt that these aspects could be modified or excluded:
+              </p>
+              <ul>
+                <li>
+                  The Move and Rotate functions may cause some components to
+                  separate from the rest of the components, since the components
+                  of the product would be connected together to form a fashion
+                  item.
+                </li>
+                <li>
+                  The Style function should not be included, as the fabric type
+                  has already been chosen in user task 1, and the fabric’s color
+                  is unable to be easily changed.
+                </li>
+              </ul>
+            </LofiRow>
             <LofiRow
               member="Chun Yong"
               link="https://drive.google.com/file/d/1b5SlydrtTnzwejEOxlI77qq8catFBjbl/preview"

@@ -29,7 +29,7 @@ function EvaluationPage() {
         </p>
         <StoryImage width="60%" image={brainstormingMiro} link="" />
       </Subsection>
-      <Subsection title="Scenario" id="Scenario">
+      <Subsection title="Scenario and Storyboard" id="Storyboard">
         For each key user task, each member created a scenario. Interestingly,
         each member interpreted the ideas generated from the brainstorming stage
         in slightly different ways. Eventually, we consolidated the individual

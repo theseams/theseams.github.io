@@ -11,6 +11,7 @@ import bucketHatImage from "../img/story/Bucket Hat.png";
 import persona1Image from "../img/story/Persona 1.png";
 import persona2Image from "../img/story/Persona 2.png";
 import { Tabs, Tab } from "react-bootstrap";
+import PersonaRow from "../components/PersonaRow";
 
 function ResearchPage() {
   const [key, setKey] = useState("Interviewee 1");
@@ -258,24 +259,27 @@ function ResearchPage() {
           Based on the findings, we understood our target user group better and
           we created two personas.
         </p>
-        <p>
-          Our first persona is Amy. She is proficient in sewing, and she tends
-          to dive straight into sewing an upcycled product after briefly
-          visualising what she wants to do in her head. Hence, her final
-          products do not always turn out as she envisioned.
-        </p>
-        <StoryImage width="70%" image={persona1Image} />
-        <p>
-          The other persona, Olivia represents the demographic of users who are
-          more inclined towards design as compared to sewing. We chose this
-          persona because we found that some interviewees had greater trouble
-          with the execution segment of their projects, as they were less
-          experienced with sewing than other interviewees. We also found that
-          some interviewees already had a very good idea of what they wanted to
-          create before starting the upcycling process. Therefore, we strived to
-          ensure that our app would not hinder their speed in the design aspect.
-        </p>
-        <StoryImage width="70%" image={persona2Image} />
+        <PersonaRow image={persona1Image}>
+          <p>
+            Our first persona is Amy. She is proficient in sewing, and she tends
+            to dive straight into sewing an upcycled product after briefly
+            visualising what she wants to do in her head. Hence, her final
+            products do not always turn out as she envisioned.
+          </p>
+        </PersonaRow>
+        <PersonaRow image={persona2Image}>
+          <p>
+            The other persona, Olivia represents the demographic of users who
+            are more inclined towards design as compared to sewing. We chose
+            this persona because we found that some interviewees had greater
+            trouble with the execution segment of their projects, as they were
+            less experienced with sewing than other interviewees. We also found
+            that some interviewees already had a very good idea of what they
+            wanted to create before starting the upcycling process. Therefore,
+            we strived to ensure that our app would not hinder their speed in
+            the design aspect.
+          </p>
+        </PersonaRow>
       </Subsection>
       <NextButton to="/ideation" title="Ideation" />
     </div>
