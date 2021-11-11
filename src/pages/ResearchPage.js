@@ -278,7 +278,7 @@ function ResearchPage() {
           ensure that our app would not hinder their speed in the design aspect.
         </PersonaRow>
       </Subsection>
-      <NextButton to="/ideation" title="Ideation" />
+      <NextButton to="/ideation" title="💡 Conceptualise ideas" />
     </div>
   );
 }

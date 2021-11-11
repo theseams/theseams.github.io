@@ -57,7 +57,7 @@ function ProblemPage() {
           upcycling suggestions using Augmented Reality, and have their old
           clothes transformed to be in trend and in the right fit by tailors.
         </p>
-        <StoryImage width="50%" image={problemPitchImg} />
+        <StoryImage width="50%" image={problemPitchImg} link="" />
         <p>
           Our team concurred with the problem of fashion wastage. After careful
           consideration, we decided to approach the problem from an upcycler's
@@ -80,9 +80,9 @@ function ProblemPage() {
           in. We eventually selected the fashion waste issue as we were able to
           relate to it.
         </p>
-        <StoryImage width="60%" image={ideasDocumentImg} />
+        <StoryImage width="60%" image={ideasDocumentImg} link="" />
       </Subsection>
-      <NextButton to="/research" title="Research" />
+      <NextButton to="/research" title="🧵 Interview upcyclers" />
     </div>
   );
 }

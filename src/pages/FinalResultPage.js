@@ -47,7 +47,7 @@ function FinalResultPage() {
           our users.
         </p>
       </Subsection>
-      <NextButton to="/our-team" title="Our Team" />
+      <NextButton to="/our-team" title="😄 Our Team" />
     </div>
   );
 }

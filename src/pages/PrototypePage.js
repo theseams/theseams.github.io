@@ -179,7 +179,7 @@ function PrototypePage() {
           </Tab>
         </Tabs>
       </Subsection>
-      <NextButton to="/evaluation" title="Evaluation" />
+      <NextButton to="/evaluation" title="🧵 Final round of user review" />
     </div>
   );
 }

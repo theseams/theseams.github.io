@@ -13,7 +13,7 @@ function EvaluationPage() {
         <FigmaEmbed url="https://www.figma.com/proto/WTIfCKvUuodCSYZgvhmGO9/Unified-HiFi?node-id=0%3A1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=24%3A106&show-proto-sidebar=1" />
       </Subsection>
       <Subsection title="User Evaluation" id="User Evaluation"></Subsection>
-      <NextButton to="/final-result" title="Final Result" />
+      <NextButton to="/final-result" title="🍊 Fruit of hard work" />
     </div>
   );
 }

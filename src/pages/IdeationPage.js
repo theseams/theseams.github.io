@@ -90,7 +90,7 @@ function EvaluationPage() {
           </p>
         </StoryboardRow>
       </Subsection>
-      <NextButton to="/prototype" title="Prototype" />
+      <NextButton to="/prototype" title="📱 Create prototypes" />
     </div>
   );
 }
