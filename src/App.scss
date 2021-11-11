@@ -78,11 +78,6 @@
   margin-bottom: 0.5rem;
 }
 
-.iframe-fullwidth {
-  width: calc(87vw - 10rem);
-  height: calc((87vw - 10rem) * 0.5625);
-}
-
 .nav-link.active {
   color: white !important;
   background-color: $primary !important;

@@ -171,7 +171,7 @@ function ResearchPage() {
         >
           <iframe
             title="Affinity, Sequence and Cultural"
-            className="iframe-fullwidth"
+            className="figma-full"
             src="https://miro.com/app/live-embed/o9J_lzDB29E=/?moveToViewport=-10357,-4627,14697,7216"
             frameBorder="0"
             scrolling="no"
