@@ -10,7 +10,7 @@ function NextButton(props) {
           to={props.to}
           exact
           activeClassName="active"
-          className="nav-link"
+          className="next-link"
         >
           <button>
             {props.title}

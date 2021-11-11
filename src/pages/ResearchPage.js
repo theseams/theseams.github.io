@@ -13,6 +13,7 @@ import persona2Image from "../img/story/Persona 2.png";
 import { Tabs, Tab } from "react-bootstrap";
 import PersonaRow from "../components/PersonaRow";
 import Card from "../components/Card";
+import IntervieweeInfo from "../components/IntervieweeInfo";
 
 function ResearchPage() {
   const [key, setKey] = useState("Interviewee 1");
@@ -81,7 +82,6 @@ function ResearchPage() {
             <li>To what extent are upcyclers interested in upcycling?</li>
           </ol>
         </Card>
-
         <p>
           We expected to learn about the practices of upcycling and the pain
           points associated in the process. Hence, we designed the exploratory
@@ -102,77 +102,42 @@ function ResearchPage() {
           id="controlled-tab-example"
           activeKey={key}
           onSelect={(k) => setKey(k)}
-          className="mb-3"
         >
           <Tab eventKey="Interviewee 1" title="Interviewee 1">
-            <div style={{ display: "flex" }}>
-              <img
-                style={{ float: "left", marginRight: "2rem" }}
-                src={scrunchieImage}
-                alt="scrunchie"
-                width="150px"
-              />
-              <div style={{ float: "right" }}>
-                <p>Age: Early 20s</p>
-                <p>Gender: Female</p>
-                <p>Occupation: Year 4 Undergraduate at NIE</p>
-                <p>
-                  Sewing Experience: She has been sewing since secondary school
-                </p>
-                <p>
-                  Upcycling task: She upcycled a sleeve of a blouse into a
-                  scrunchie from scratch. By the end of the inquiry, she managed
-                  to finish it.
-                </p>
-              </div>
-            </div>
+            <IntervieweeInfo
+              image={scrunchieImage}
+              info={[
+                "Early 20s",
+                "Female",
+                "Year 4 Undergraduate at NIE",
+                "She has been sewing since secondary school",
+                "She upcycled a sleeve of a blouse into a scrunchie from scratch. By the end of the inquiry, she managed to finish it.",
+              ]}
+            />
           </Tab>
           <Tab eventKey="Interviewee 2" title="Interviewee 2">
-            <div style={{ display: "flex" }}>
-              <img
-                style={{ float: "left", marginRight: "2rem" }}
-                src={cropTopImage}
-                alt="scrunchie"
-                width="150px"
-              />
-              <div style={{ float: "right" }}>
-                <p>Age: Early 20s</p>
-                <p>Gender: Female</p>
-                <p>
-                  Occupation: Year 4 Undergraduate, studying Industrial Design
-                </p>
-                <p>Sewing Experience: 3-4 years</p>
-                <p>
-                  Upcycling task: She picked up one of her failed upcycling
-                  projects, which is to create a crop top, and she attempted to
-                  finish it. Though she managed to finish sewing it by the end
-                  of the inquiry, the stitching ripped when she tried it on and
-                  she discontinued the project for now.
-                </p>
-              </div>
-            </div>
+            <IntervieweeInfo
+              image={cropTopImage}
+              info={[
+                "Early 20s",
+                "Female",
+                "Year 4 Undergraduate, studying Industrial Design",
+                "She has been sewing for 3-4 years",
+                "She picked up one of her failed upcycling projects, which is to create a crop top, and she attempted to finish it. Though she managed to finish sewing it by the end of the inquiry, the stitching ripped when she tried it on and she discontinued the project for now.",
+              ]}
+            />
           </Tab>
           <Tab eventKey="Interviewee 3" title="Interviewee 3">
-            <div style={{ display: "flex" }}>
-              <img
-                style={{ float: "left", marginRight: "2rem" }}
-                src={bucketHatImage}
-                alt="scrunchie"
-                width="150px"
-              />
-              <div style={{ float: "right" }}>
-                <p>Age: Early 20s</p>
-                <p>Gender: Female</p>
-                <p>Occupation: University Graduate, studied Accounting</p>
-                <p>Sewing Experience: 2-3 years</p>
-                <p>
-                  Upcycling task: She upcycled an old pair of jeans into a
-                  bucket hat from scratch. As the project required more time
-                  than what the inquiry allowed, she only managed to finish the
-                  foundation of the hat.
-                </p>
-              </div>
-            </div>
+            <IntervieweeInfo
+              image={bucketHatImage}
+              info={[
+                "Early 20s",
+                "Female",
+                "University Graduate, studied Accounting",
+                "She has been sewing for 2-3 years",
+                "She upcycled an old pair of jeans into a bucket hat from scratch. As the project required more time than what the inquiry allowed, she only managed to finish the foundation of the hat.",
+              ]}
+            />
           </Tab>
         </Tabs>
         <br />

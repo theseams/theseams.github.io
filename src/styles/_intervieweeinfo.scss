@@ -1,0 +1,15 @@
+.IntervieweeInfo {
+  display: flex;
+  .project-box {
+    // border: 1px solid pink;
+    width: 10rem;
+    float: left;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .interviewee-content {
+    float: right;
+  }
+}

@@ -7,6 +7,7 @@
 @import "./styles/storyimage";
 @import "./styles/row";
 @import "./styles/card";
+@import "./styles/intervieweeinfo";
 
 * {
   padding: 0;
@@ -14,7 +15,7 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   b {
-    color: darken($primary, 35);
+    color: darken($primary, 30);
   }
   ol {
     counter-reset: item;
@@ -28,6 +29,27 @@
     font-weight: 700;
     color: darken($primary, 35);
   }
+}
+
+.nav-link.active {
+  color: white !important;
+  background-color: $primary !important;
+}
+
+.nav-link {
+  color: $primary !important;
+}
+
+.tab-content {
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0px 0px 10px 10px;
+  padding: 1.5rem;
+}
+
+.my-picture {
+  width: 15rem;
+  border-radius: 5px;
 }
 
 body::-webkit-scrollbar {
