@@ -11,6 +11,7 @@ import FinalResultPage from "./pages/FinalResultPage";
 import OurTeamPage from "./pages/OurTeamPage";
 import { useState } from "react";
 import { Helmet } from "react-helmet";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);
@@ -46,32 +47,34 @@ function App() {
             <div className="lines-2"></div>
             <div className="lines-3"></div>
           </div>
-          <Switch>
-            <Route exact path="/">
-              <HomePage />
-            </Route>
-            <Route exact path="/problem">
-              <ProblemPage />
-            </Route>
-            <Route exact path="/research">
-              <ResearchPage />
-            </Route>
-            <Route exact path="/ideation">
-              <IdeationPage />
-            </Route>
-            <Route exact path="/prototype">
-              <PrototypePage />
-            </Route>
-            <Route exact path="/evaluation">
-              <EvaluationPage />
-            </Route>
-            <Route exact path="/final-result">
-              <FinalResultPage />
-            </Route>
-            <Route exact path="/our-team">
-              <OurTeamPage />
-            </Route>
-          </Switch>
+          <ScrollToTop>
+            <Switch>
+              <Route exact path="/">
+                <HomePage />
+              </Route>
+              <Route exact path="/problem">
+                <ProblemPage />
+              </Route>
+              <Route exact path="/research">
+                <ResearchPage />
+              </Route>
+              <Route exact path="/ideation">
+                <IdeationPage />
+              </Route>
+              <Route exact path="/prototype">
+                <PrototypePage />
+              </Route>
+              <Route exact path="/evaluation">
+                <EvaluationPage />
+              </Route>
+              <Route exact path="/final-result">
+                <FinalResultPage />
+              </Route>
+              <Route exact path="/our-team">
+                <OurTeamPage />
+              </Route>
+            </Switch>
+          </ScrollToTop>
         </div>
       </div>
     </div>
