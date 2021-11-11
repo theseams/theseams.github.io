@@ -8,6 +8,7 @@
 @import "./styles/row";
 @import "./styles/card";
 @import "./styles/intervieweeinfo";
+@import "./styles/memberintro";
 
 * {
   padding: 0;
@@ -96,11 +97,6 @@
   border-top: none;
   border-radius: 0px 0px 10px 10px;
   padding: 1.5rem;
-}
-
-.my-picture {
-  width: 15rem;
-  border-radius: 5px;
 }
 
 body::-webkit-scrollbar {

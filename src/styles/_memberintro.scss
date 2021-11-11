@@ -1,0 +1,19 @@
+.MemberIntro {
+  display: flex;
+  .picture-box {
+    width: 15rem;
+    img {
+      object-fit: cover;
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+  .quote-box {
+    margin-left: 2rem;
+    width: 100%;
+    border-bottom: 1px solid #bdbdbd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
