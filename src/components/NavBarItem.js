@@ -16,7 +16,7 @@ function NavBarItem(props) {
         </AccordionItemHeading>
         <AccordionItemPanel>
           {props.subheaders.map((subheader, index) => (
-            <div className="subitem">
+            <div className="subitem" key={index}>
               <HashLink
                 to={`${props.to}#${subheader}`}
                 key={index}
