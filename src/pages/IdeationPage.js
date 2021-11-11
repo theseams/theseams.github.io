@@ -7,7 +7,6 @@ import brainstormingMiro from "../img/story/Brainstorming Miro.png";
 import ut1Storyboard from "../img/story/UT1 Storyboard.png";
 import ut2Storyboard from "../img/story/UT2 Storyboard.png";
 import ut3Storyboard from "../img/story/UT3 Storyboard.png";
-import LofiRow from "../components/LofiRow";
 import StoryboardRow from "../components/StoryboardRow";
 
 function EvaluationPage() {
