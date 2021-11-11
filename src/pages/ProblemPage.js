@@ -28,7 +28,7 @@ function ProblemPage() {
         <p>
           However, she is hesitant to actually start sewing, because her final
           product does not always match her desired design. This is the{" "}
-          <i>Expectations vs Reality</i> problem. She has failed several
+          <b>Expectations vs Reality</b> problem. She has failed several
           upcycling projects in the past as she faced difficulties when
           following through with Do-It-Yourself (DIY) tutorials. Sometimes, when
           she thought of deviating slightly from the tutorial and adding in her

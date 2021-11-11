@@ -13,6 +13,21 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  b {
+    color: darken($primary, 35);
+  }
+  ol {
+    counter-reset: item;
+  }
+  ol li {
+    display: block;
+  }
+  ol li:before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    font-weight: 700;
+    color: darken($primary, 35);
+  }
 }
 
 body::-webkit-scrollbar {

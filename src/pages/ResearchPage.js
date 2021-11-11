@@ -12,6 +12,7 @@ import persona1Image from "../img/story/Persona 1.png";
 import persona2Image from "../img/story/Persona 2.png";
 import { Tabs, Tab } from "react-bootstrap";
 import PersonaRow from "../components/PersonaRow";
+import Card from "../components/Card";
 
 function ResearchPage() {
   const [key, setKey] = useState("Interviewee 1");
@@ -26,20 +27,24 @@ function ResearchPage() {
       </Section>
       <Subsection title="Target Audience" id="Target Audience">
         <p>
-          Our target user group is tech-savvy upcyclers. They like to explore
-          social media platforms to get inspiration for upcycling projects.
-          While they know the general workflow of an upcycling project, they
-          tend to dive right into the execution process — following DIY
-          tutorials — after coming up with a rough plan in their head. However,
-          the tutorials often leave little room for customization and the
-          upcyclers are unable to visualize and execute their ideal design. As a
-          result, their final product may not match their expectations.
+          We have identified{" "}
+          <b>upcyclers who are tech-savvy and familiar with sewing</b> as our
+          target user group.
         </p>
         <p>
-          Our team also narrowed down the target user group to upcyclers who
-          have basic sewing capabilities. This is because we want to focus on
+          Tech-savvy upcyclers tend to explore social media platforms to get
+          inspiration for upcycling projects. While they know the general
+          workflow of an upcycling project, they tend to dive right into the
+          execution process — following DIY tutorials — after coming up with a
+          rough plan in their head. However, the tutorials often leave little
+          room for customization and the upcyclers are unable to visualize and
+          execute their ideal design. As a result, their final product may not
+          match their expectations.
+        </p>
+        <p>
+          By targeting upcyclers who have experience in sewing, we can focus on
           mitigating the mismatch in expectations versus reality in upcycling
-          projects, and not guiding beginner sewists into the world of
+          projects, instead of guiding beginner sewists into the world of
           upcycling.
         </p>
         <StoryImage
@@ -54,24 +59,29 @@ function ResearchPage() {
           hobbyists. Through her connections, we began planning interviews with
           upcyclers who have worked on upcycling projects.
         </p>
-        <p>
-          As we are not experienced sewists or upcyclers, we defined the focus
-          of our contextual inquiry as such: To understand more about how
-          upcycling works and learn about the challenges that they face while
-          sewing. Next, we crafted four key focus questions:
-        </p>
-        <ol>
-          <li>
-            What pain points do upcyclers face when trying to turn their designs
-            into reality?
-          </li>
-          <li>Is visualising their final product a pain point when sewing?</li>
-          <li>
-            To what extent are upcyclers successful at turning their designs
-            into reality?
-          </li>
-          <li>To what extent are upcyclers interested in upcycling?</li>
-        </ol>
+        <Card>
+          As we are not experienced sewists or upcyclers, we focused on:
+          <b>(1) Understanding more about how upcycling works</b>
+          <b>(2) Learning about the sewing challenges</b>
+        </Card>
+        <Card>
+          Next, we crafted key focus questions:
+          <ol>
+            <li>
+              What pain points do upcyclers face when trying to turn their
+              designs into reality?
+            </li>
+            <li>
+              Is visualising their final product a pain point when sewing?
+            </li>
+            <li>
+              To what extent are upcyclers successful at turning their designs
+              into reality?
+            </li>
+            <li>To what extent are upcyclers interested in upcycling?</li>
+          </ol>
+        </Card>
+
         <p>
           We expected to learn about the practices of upcycling and the pain
           points associated in the process. Hence, we designed the exploratory
