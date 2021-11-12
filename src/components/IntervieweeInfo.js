@@ -8,19 +8,24 @@ function IntervieweeInfo(props) {
       </div>
       <div className="interviewee-content">
         <p>
-          <b>Age:</b> {props.info[0]}
+          <b>Demographic:</b>
+          <br />
+          {props.info[0]}
         </p>
         <p>
-          <b>Gender:</b> {props.info[1]}
+          <b>Occupation:</b>
+          <br />
+          {props.info[1]}
         </p>
         <p>
-          <b>Occupation:</b> {props.info[2]}
+          <b>Sewing Experience:</b>
+          <br />
+          {props.info[2]}
         </p>
         <p>
-          <b>Sewing Experience:</b> {props.info[3]}
-        </p>
-        <p>
-          <b>Upcycling Task:</b> {props.info[4]}
+          <b>Upcycling Task:</b>
+          <br />
+          {props.info[3]}
         </p>
       </div>
     </div>

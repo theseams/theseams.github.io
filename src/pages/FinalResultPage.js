@@ -9,9 +9,8 @@ function FinalResultPage() {
       <Helmet title="Final Result" />
       <Section title="Final Result" id="Final Result">
         Ta-da! Finally, we have finished the project. Presenting to you,{" "}
-        <b>Interactive_Prototype_FINALFINAL</b>, along with a video that
-        features the 5 founders of The Seams who will guide you through the
-        entire project.
+        <b>The Seams</b>, along with a video that features the 5 founders of The
+        Seams who will guide you through the entire project.
       </Section>
       <Subsection title="Interactive Prototype" id="Interactive Prototype">
         <iframe

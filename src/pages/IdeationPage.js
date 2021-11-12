@@ -7,6 +7,7 @@ import brainstormingMiro from "../img/story/Brainstorming Miro.png";
 import ut1Storyboard from "../img/story/UT1 Storyboard.png";
 import ut2Storyboard from "../img/story/UT2 Storyboard.png";
 import ut3Storyboard from "../img/story/UT3 Storyboard.png";
+import theSims from "../img/story/The Sims.png";
 import StoryboardRow from "../components/StoryboardRow";
 import Card from "../components/Card";
 
@@ -36,7 +37,7 @@ function EvaluationPage() {
         scenarios into collective scenarios. With the help of our in-house comic
         artists, we created storyboards.
         <Card>
-          <b>Fun Fact:</b>
+          <b style={{ color: "#007bbc" }}>Fun Fact:</b>
           The application's name, The Seams, makes a play on words! It takes
           inspiration from our personalized mannequin/avatar feature and the
           widely popular game, The Sims. Read on to find out more about this

@@ -26,9 +26,9 @@ function OurTeamPage() {
           With Love, Team 14.
         </p>
         <Card>
-          <b>Fun Fact:</b>
-          Fun fact: Did you know that The Seams was almost named as Sewergram,
-          SewyAunty, and even SewStripper? 🙈
+          <b style={{ color: "#007bbc" }}>Fun Fact:</b>
+          Did you know that The Seams was almost named as Sewergram, SewAunty,
+          and even SeamStripper? 🙈
         </Card>
       </Section>
       <Subsection title="Neo Rui En Maybelline" id="Rui En">
@@ -45,16 +45,16 @@ function OurTeamPage() {
       </Subsection>
       <Subsection title="Stephen Tan Hin Khai" id="Stephen">
         <MemberIntro
-          img={StephenImg}
+          image={StephenImg}
           quote="Why did the sewist cross the road? To find his two chickens."
         />
       </Subsection>
       <Subsection title="Lim Chun Yong" id="Chun Yong">
-        <MemberIntro img={ChunYongImg} quote="Tuesday 5pm next meeting" />
+        <MemberIntro image={ChunYongImg} quote="Tuesday 5pm next meeting" />
       </Subsection>
       <Subsection title="Ong Hui Xian" id="Hui Xian">
         <MemberIntro
-          img={HuiXianImg}
+          image={HuiXianImg}
           quote="Powered by cakes and caffeine ☕️"
         />
       </Subsection>

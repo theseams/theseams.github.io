@@ -56,7 +56,7 @@ function ResearchPage() {
         <Card>
           As we are not experienced sewists or upcyclers, we focused on:
           <b>(1) Understanding more about how upcycling works</b>
-          <b>(2) Learning about the sewing challenges</b>
+          <b>(2) Learning about the various sewing challenges</b>
         </Card>
         <Card>
           Next, we crafted key focus questions:
@@ -91,49 +91,6 @@ function ResearchPage() {
           We visited the interviewees' house and we observed the interviewees as
           they attempt to complete an upcycling project from scratch.
         </p>
-        <Tabs
-          id="controlled-tab-example"
-          activeKey={key}
-          onSelect={(k) => setKey(k)}
-        >
-          <Tab eventKey="Interviewee 1" title="Interviewee 1">
-            <IntervieweeInfo
-              image={scrunchieImage}
-              info={[
-                "Early 20s",
-                "Female",
-                "Year 4 Undergraduate at NIE",
-                "She has been sewing since secondary school",
-                "She upcycled a sleeve of a blouse into a scrunchie from scratch. By the end of the inquiry, she managed to finish it.",
-              ]}
-            />
-          </Tab>
-          <Tab eventKey="Interviewee 2" title="Interviewee 2">
-            <IntervieweeInfo
-              image={cropTopImage}
-              info={[
-                "Early 20s",
-                "Female",
-                "Year 4 Undergraduate, studying Industrial Design",
-                "She has been sewing for 3-4 years",
-                "She picked up one of her failed upcycling projects, which is to create a crop top, and she attempted to finish it. Though she managed to finish sewing it by the end of the inquiry, the stitching ripped when she tried it on and she discontinued the project for now.",
-              ]}
-            />
-          </Tab>
-          <Tab eventKey="Interviewee 3" title="Interviewee 3">
-            <IntervieweeInfo
-              image={bucketHatImage}
-              info={[
-                "Early 20s",
-                "Female",
-                "University Graduate, studied Accounting",
-                "She has been sewing for 2-3 years",
-                "She upcycled an old pair of jeans into a bucket hat from scratch. As the project required more time than what the inquiry allowed, she only managed to finish the foundation of the hat.",
-              ]}
-            />
-          </Tab>
-        </Tabs>
-        <br />
         <p>
           A few things went well for us. We found it easy to apply the
           master-apprentice model. As we lacked sewing experience, questions
@@ -155,6 +112,45 @@ function ResearchPage() {
           interviewee 1 finish her upcycling project during the contextual
           inquiry. Yet, the interview was the longest out of the 3 interviews.
         </p>
+        <Tabs
+          id="controlled-tab-example"
+          activeKey={key}
+          onSelect={(k) => setKey(k)}
+        >
+          <Tab eventKey="Interviewee 1" title="Interviewee 1">
+            <IntervieweeInfo
+              image={scrunchieImage}
+              info={[
+                "Early 20s, Female",
+                "Year 4 Undergraduate at NIE",
+                "She has been sewing since secondary school",
+                "She upcycled a sleeve of a blouse into a scrunchie from scratch. By the end of the inquiry, she managed to finish it.",
+              ]}
+            />
+          </Tab>
+          <Tab eventKey="Interviewee 2" title="Interviewee 2">
+            <IntervieweeInfo
+              image={cropTopImage}
+              info={[
+                "Early 20s, Female",
+                "Year 4 Undergraduate, studying Industrial Design",
+                "She has been sewing for 3-4 years",
+                "She picked up one of her failed upcycling projects, which is to create a crop top, and she attempted to finish it. Though she managed to finish sewing it by the end of the inquiry, the stitching ripped when she tried it on and she discontinued the project for now.",
+              ]}
+            />
+          </Tab>
+          <Tab eventKey="Interviewee 3" title="Interviewee 3">
+            <IntervieweeInfo
+              image={bucketHatImage}
+              info={[
+                "Early 20s, Female",
+                "University Graduate, studied Accounting",
+                "She has been sewing for 2-3 years",
+                "She upcycled an old pair of jeans into a bucket hat from scratch. As the project required more time than what the inquiry allowed, she only managed to finish the foundation of the hat.",
+              ]}
+            />
+          </Tab>
+        </Tabs>
       </Subsection>
       <Subsection title="After the Interview" id="After the Interview">
         <p>
@@ -190,12 +186,10 @@ function ResearchPage() {
             motivating factor for upcycling.
           </li>
           <li>
-            Different interviewees have conflicting opinions on what would be an
-            ideal solution to help them envision how the final product would
-            look like. While interviewee 3 prefers having a 3D visualisation
-            software for prototyping the end product, it was not an ideal
-            solution for interviewee 1, who prefers visualisations through paper
-            prototypes.
+            Our interviewees' inspirations for starting an upcycling project was
+            based on the clothes they have on hand, and not necessarily based on
+            the designs they view online. This finding made us think about how
+            our users would begin an upcycling project with our application.
           </li>
         </ul>
       </Subsection>
@@ -204,21 +198,28 @@ function ResearchPage() {
           From the affinity diagram, we were able to easily identify 3 key user
           tasks.
         </p>
-        <Card>
-          <b>Plan - Viewing possibilities</b>
-          View the possible upcycling projects that can be done with the kind of
-          clothes they want to upcycle
-        </Card>
-        <Card>
-          <b>Measure - Visualizing final product</b>
-          Visualise how the final product would look like on the user, and
-          customise the size of the product as necessary
-        </Card>
-        <Card>
-          <b>Sew - Creating final product</b>
-          Begin sewing the product, solving any issues that crop up along the
-          way
-        </Card>
+        <b style={{ fontSize: "1.5rem" }}>Plan</b>
+        <p>
+          We want to tackle the rigidity of DIY tutorials that feature specific
+          designs with fixed measurements. By generating output product
+          visualisations—that can be further customised—according to input
+          materials, upcyclers can visualise a range of possibilities for their
+          final product.
+        </p>
+        <br />
+        <b style={{ fontSize: "1.5rem" }}>Measure</b>
+        <p>
+          We want to address the mismatch between the expectation and reality of
+          the final product, because it is difficult to accurately visualise how
+          to final product would fit themselves.
+        </p>
+        <br />
+        <b style={{ fontSize: "1.5rem" }}>Sew</b>
+        <p>
+          We want to mitigate the sewing mistakes that may occur in the
+          execution of sewing by offering guided instructions and good sewing
+          practices for upcyclers to recover from errors.
+        </p>
       </Subsection>
       <Subsection title="Personas" id="Personas">
         <p>
@@ -234,7 +235,7 @@ function ResearchPage() {
           she envisioned.
         </PersonaRow>
         <PersonaRow image={persona2Image}>
-          Olivia is proficient in design Typically, she begins an upcycling
+          Olivia is proficient in design. Typically, she begins an upcycling
           project with a very good idea of what she wants to create. However,
           she finds it difficult to execute the projects, as she is not that
           experienced with sewing.
