@@ -38,10 +38,9 @@ function EvaluationPage() {
         artists, we created storyboards.
         <Card>
           <b style={{ color: "#007bbc" }}>Fun Fact:</b>
-          The application's name, The Seams, makes a play on words! It takes
-          inspiration from our personalized mannequin/avatar feature and the
-          widely popular game, The Sims. Read on to find out more about this
-          feature!
+          Did you know that our application's name, The Seams, was inspired from
+          our personalized mannequin/avatar feature and the widely popular game,
+          The Sims? Read on to find out more about this feature!
         </Card>
         <StoryboardRow
           image={ut1Storyboard}
