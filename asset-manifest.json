@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.27500a04.chunk.css",
-    "main.js": "/static/js/main.277aa029.chunk.js",
-    "main.js.map": "/static/js/main.277aa029.chunk.js.map",
+    "main.css": "/static/css/main.60f59483.chunk.css",
+    "main.js": "/static/js/main.3d8d51bd.chunk.js",
+    "main.js.map": "/static/js/main.3d8d51bd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ee484b56.js",
     "runtime-main.js.map": "/static/js/runtime-main.ee484b56.js.map",
     "static/css/2.4a4d2903.chunk.css": "/static/css/2.4a4d2903.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.50454fc3.chunk.js.map": "/static/js/2.50454fc3.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4a4d2903.chunk.css.map": "/static/css/2.4a4d2903.chunk.css.map",
-    "static/css/main.27500a04.chunk.css.map": "/static/css/main.27500a04.chunk.css.map",
+    "static/css/main.60f59483.chunk.css.map": "/static/css/main.60f59483.chunk.css.map",
     "static/js/2.50454fc3.chunk.js.LICENSE.txt": "/static/js/2.50454fc3.chunk.js.LICENSE.txt",
     "static/media/Aquarius.ac51f3b5.png": "/static/media/Aquarius.ac51f3b5.png",
     "static/media/Beanie Fail.dd9f719d.png": "/static/media/Beanie Fail.dd9f719d.png",
@@ -21,16 +21,17 @@
     "static/media/Hui Xian.d63c8cad.jpg": "/static/media/Hui Xian.d63c8cad.jpg",
     "static/media/Ideas Document.a476b150.png": "/static/media/Ideas Document.a476b150.png",
     "static/media/Logo Heart.34ac5275.png": "/static/media/Logo Heart.34ac5275.png",
-    "static/media/Persona 1.da9b6b4f.png": "/static/media/Persona 1.da9b6b4f.png",
-    "static/media/Persona 2.9550b497.png": "/static/media/Persona 2.9550b497.png",
+    "static/media/Persona 1.fa5a5749.png": "/static/media/Persona 1.fa5a5749.png",
+    "static/media/Persona 2.85039d8f.png": "/static/media/Persona 2.85039d8f.png",
     "static/media/Problem Pitch.0d3ad590.png": "/static/media/Problem Pitch.0d3ad590.png",
     "static/media/Right Arrow.afa4bff5.svg": "/static/media/Right Arrow.afa4bff5.svg",
     "static/media/Rui En.a29c9aca.jpg": "/static/media/Rui En.a29c9aca.jpg",
     "static/media/Scrunchie.494bf9f5.png": "/static/media/Scrunchie.494bf9f5.png",
     "static/media/Sewing Illustration.9bb4e4ad.svg": "/static/media/Sewing Illustration.9bb4e4ad.svg",
     "static/media/Stephen.02da6a10.jpg": "/static/media/Stephen.02da6a10.jpg",
+    "static/media/The Sims.aa49ab3b.png": "/static/media/The Sims.aa49ab3b.png",
     "static/media/UT1 Storyboard.b09fbfa8.png": "/static/media/UT1 Storyboard.b09fbfa8.png",
-    "static/media/UT2 Storyboard.ba7c5a91.png": "/static/media/UT2 Storyboard.ba7c5a91.png",
+    "static/media/UT2 Storyboard.5b3fe213.png": "/static/media/UT2 Storyboard.5b3fe213.png",
     "static/media/UT3 Storyboard.c990d2f2.png": "/static/media/UT3 Storyboard.c990d2f2.png",
     "static/media/Youtube Tutorial.898d4543.png": "/static/media/Youtube Tutorial.898d4543.png"
   },
@@ -38,7 +39,7 @@
     "static/js/runtime-main.ee484b56.js",
     "static/css/2.4a4d2903.chunk.css",
     "static/js/2.50454fc3.chunk.js",
-    "static/css/main.27500a04.chunk.css",
-    "static/js/main.277aa029.chunk.js"
+    "static/css/main.60f59483.chunk.css",
+    "static/js/main.3d8d51bd.chunk.js"
   ]
 }
