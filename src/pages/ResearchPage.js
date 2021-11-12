@@ -10,7 +10,6 @@ import persona1Image from "../img/story/Persona 1.png";
 import persona2Image from "../img/story/Persona 2.png";
 import { Tabs, Tab } from "react-bootstrap";
 import PersonaRow from "../components/PersonaRow";
-import Card from "../components/Card";
 import IntervieweeInfo from "../components/IntervieweeInfo";
 
 function ResearchPage() {
