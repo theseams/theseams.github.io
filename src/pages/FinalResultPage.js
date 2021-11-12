@@ -25,8 +25,7 @@ function FinalResultPage() {
         <p>
           Through multiple iterations of rigorous evaluation, our team has
           refined our design solution to have an intuitive and efficient user
-          flow by (1) simplifying user flow, (2) clear signposting for user
-          action, and (3) minimising errors.
+          flow.
         </p>
         <p>
           Our users have validated the effectiveness of our design solution in

@@ -89,10 +89,19 @@ function EvaluationPage() {
           points of visualising and executing upcycling projects with a
           relatively intuitive user flow. They liked how a project is broken
           down into the three phases of ‘Plan—Measure—Sew’, which aligns with
-          the typical workflow of an upcycling project. However, they felt that
-          our prototype could be refined with (1) clearer signposting for user
-          action, (2) further simplification of user flow, and (3) errors
-          avoided, which are explicated in the tables below.
+          the typical workflow of an upcycling project.
+        </p>
+        <p>
+          However, they felt that our prototype could be refined with:
+          <ol>
+            <li>Clearer signposting for user action</li>
+            <li>Further simplification of user flow</li>
+            <li>Protection to prevent user errors</li>
+          </ol>
+        </p>
+        <p>
+          Detailed findings and severity ratings are explained in the table
+          below.
         </p>
         <iframe
           title="Findings and Changes"

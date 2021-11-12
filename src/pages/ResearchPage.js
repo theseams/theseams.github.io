@@ -53,13 +53,15 @@ function ResearchPage() {
           hobbyists. Through her connections, we began planning interviews with
           upcyclers who have worked on upcycling projects.
         </p>
-        <Card>
-          As we are not experienced sewists or upcyclers, we focused on:
-          <b>(1) Understanding more about how upcycling works</b>
-          <b>(2) Learning about the various sewing challenges</b>
-        </Card>
-        <Card>
-          Next, we crafted key focus questions:
+        <p>
+          As we are not experienced sewists or upcyclers, we <b>focused</b> on:
+          <ol>
+            <li>Understanding more about how upcycling works</li>
+            <li>Learning about the various sewing challenges</li>
+          </ol>
+        </p>
+        <p>
+          Next, we crafted <b>key focus questions</b>:
           <ol>
             <li>
               What pain points do upcyclers face when trying to turn their
@@ -74,7 +76,7 @@ function ResearchPage() {
             </li>
             <li>To what extent are upcyclers interested in upcycling?</li>
           </ol>
-        </Card>
+        </p>
         <p>
           We expected to learn about the practices of upcycling and the pain
           points associated in the process. Hence, we designed the exploratory
@@ -92,21 +94,21 @@ function ResearchPage() {
           they attempt to complete an upcycling project from scratch.
         </p>
         <p>
-          A few things went well for us. We found it easy to apply the
-          master-apprentice model. As we lacked sewing experience, questions
-          regarding our interviewees' work came naturally to us. Furthermore,
-          asking about their failed projects led to in-depth answers about the
-          struggles that the interviewees had faced. They were willing to share
-          their troubles and pain points, which provided us a great deal of
-          insight. Interviewee 1 showed us one of her failed upcycling projects,
-          and it allowed us to understand first-hand how an upcycling project
-          could go wrong. This helped us understand our users and their pain
-          points much better.
+          A few things went well for us. We found it{" "}
+          <b>easy to apply the master-apprentice model</b>. As we lacked sewing
+          experience, questions regarding our interviewees' work came naturally
+          to us. Furthermore, asking about their failed projects led to in-depth
+          answers about the struggles that the interviewees had faced. They were
+          willing to share their troubles and pain points, which provided us a
+          great deal of insight. Interviewee 1 showed us one of her failed
+          upcycling projects, and it allowed us to understand first-hand how an
+          upcycling project could go wrong. This helped us understand our users
+          and their pain points much better.
         </p>
         <p>
-          However, the interview time constraints posed a challenge for us. As
-          sewing is quite a time consuming process, it was likely that the
-          interviewees may not be able to complete their project during the
+          However, the <b>interview time constraints</b> posed a challenge for
+          us. As sewing is quite a time consuming process, it was likely that
+          the interviewees may not be able to complete their project during the
           contextual inquiry. As it turned out, interviewees 2 and 3 were unable
           to finish sewing during the interview. Fortunately, we managed to see
           interviewee 1 finish her upcycling project during the contextual
@@ -177,19 +179,20 @@ function ResearchPage() {
         <p>Our analysis revealed several surprising findings:</p>
         <ul className="shocked-ul">
           <li>
-            Our interviewees' motivations for upcycling do not include the
-            desire to reduce fashion waste and save the environment. Instead,
-            they highlighted the satisfaction derived from revamping their old
-            clothes that have sentimental value, and engaging in the hobby of
-            sewing. This finding made us rethink our initial framing of the
-            individual’s environmental social-responsibility as the key
-            motivating factor for upcycling.
+            Our interviewees' motivations for upcycling{" "}
+            <b>do not include the desire to reduce fashion waste</b> and save
+            the environment. Instead, they highlighted the satisfaction derived
+            from revamping their old clothes that have sentimental value, and
+            engaging in the hobby of sewing. This finding made us rethink our
+            initial framing of the individual’s environmental
+            social-responsibility as the key motivating factor for upcycling.
           </li>
           <li>
             Our interviewees' inspirations for starting an upcycling project was
-            based on the clothes they have on hand, and not necessarily based on
-            the designs they view online. This finding made us think about how
-            our users would begin an upcycling project with our application.
+            based on the clothes they have, and{" "}
+            <b>not necessarily based on the designs they view online</b>. This
+            finding made us think about how our users would begin an upcycling
+            project with our application.
           </li>
         </ul>
       </Subsection>
@@ -229,16 +232,16 @@ function ResearchPage() {
           proficiencies within our target user group of upcyclers.
         </p>
         <PersonaRow image={persona1Image}>
-          Amy is proficient in sewing. Yet, she tends to dive straight into
-          sewing an upcycled product after briefly visualising what she wants to
-          do in her head. Hence, her final products do not always turn out as
-          she envisioned.
+          Amy is proficient in <b>sewing</b>. Yet, she tends to dive straight
+          into sewing an upcycled product after briefly visualising what she
+          wants to do in her head. Hence, her final products do not always turn
+          out as she envisioned.
         </PersonaRow>
         <PersonaRow image={persona2Image}>
-          Olivia is proficient in design. Typically, she begins an upcycling
-          project with a very good idea of what she wants to create. However,
-          she finds it difficult to execute the projects, as she is not that
-          experienced with sewing.
+          Olivia is proficient in <b>design</b>. Typically, she begins an
+          upcycling project with a very good idea of what she wants to create.
+          However, she finds it difficult to execute the projects, as she is not
+          that experienced with sewing.
         </PersonaRow>
       </Subsection>
       <NextButton to="/ideation" title="💡 Conceptualise ideas" />

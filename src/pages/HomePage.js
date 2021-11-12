@@ -11,7 +11,7 @@ function HomePage() {
           <img src={logo} alt="logo" className="home-logo" />
           <p className="home-text">Welcome to The Seams</p>
           <p className="home-subtext">we keep things seample</p>
-          <div style={{ marginTop: "-2rem" }}>
+          <div className="home-btnbox">
             <NextButton to="/problem" title="Begin Journey" />
           </div>
         </div>

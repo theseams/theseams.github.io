@@ -36,12 +36,16 @@ function EvaluationPage() {
         in slightly different ways. Eventually, we consolidated the individual
         scenarios into collective scenarios. With the help of our in-house comic
         artists, we created storyboards.
-        <Card>
-          <b style={{ color: "#007bbc" }}>Fun Fact:</b>
-          Did you know that our application's name, The Seams, was inspired from
-          our personalized mannequin/avatar feature and the widely popular game,
-          The Sims? Read on to find out more about this feature!
-        </Card>
+        <div className="funfact-sims">
+          <img src={theSims} alt="The Sims" />
+          <div>
+            <b>Fun Fact:</b>
+            <text>
+              Did you know that "The Seams", was inspired from our personalized
+              mannequin/avatar feature and the widely popular game, The Sims?
+            </text>
+          </div>
+        </div>
         <StoryboardRow
           image={ut1Storyboard}
           title="Planning and viewing possibilities"
